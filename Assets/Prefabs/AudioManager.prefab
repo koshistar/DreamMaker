@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6793106178324968437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5396670842752335003}
+  - component: {fileID: 1617209088222298040}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5396670842752335003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6793106178324968437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6310318, y: -0.27555215, z: 4.89351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1617209088222298040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6793106178324968437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cb011e79d1c8b48aceefb77dea77dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioTypes:
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 00e71bb1b2072c6409fa6601503b1f98, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: dialogue
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 878a417302d7a2048ba76555d2835ca8, type: 3}
+    group: {fileID: -798000299626369004, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: bgm0
+    volume: 1
+    pitch: 1
+    loop: 1
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 937f6dc28b3994249a41c9370edc153f, type: 3}
+    group: {fileID: -798000299626369004, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: bgm1
+    volume: 1
+    pitch: 1
+    loop: 1
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: b310707b4c725164a9d3025e2731181f, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: tip
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: fc8f41e9df171954a8668959e6f30426, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: get
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 08e95b2cc8f3aab49a41526b62f0a374, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: car
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 4a2797594ee0f6b49b89b7ad06ff11b2, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: stone
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: f16713697b733e04c9d15003e9c2fb58, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: clickpop
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: decf2bba3c8374d459bf7a71c12b342c, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: buttonselect
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a7b501f434dc49d4d81a4efd046c65ee, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: box
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: f407e4fc67f145a46800aa3b551079e9, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: desk
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 27f7092b90930644981b44c5cb596768, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: bubble
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 0e27b54413d6b8a43b2a8bd3852aeb65, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: owl
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a49a48771afb5c9439ffc227bed20692, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: mice
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 3a27e2e1c15a6864fb09a8212919f84f, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: pipe
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: dfe29e6a5c1a47f4980fae61a348db59, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: hen
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 01f0708f05df34443a6648366a98a166, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: get1
+    volume: 1
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    clip: {fileID: 8300000, guid: b310707b4c725164a9d3025e2731181f, type: 3}
+    group: {fileID: -4695781197879078132, guid: 54eb809d7d861644493f1f6bf52a2d40, type: 2}
+    name: point1
+    volume: 1
+    pitch: 1
+    loop: 0

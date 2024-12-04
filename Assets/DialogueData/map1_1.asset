@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c8a6b8f10062f45a251d423da2579e, type: 3}
+  m_Name: map1_1
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - "\u679C\u7136\u662F\u4E00\u7247\u5730\u4E0B\u77FF\u573A\uFF0C\u9634\u6697\uFF0C\u5E7D\u9083\uFF0C\u6050\u6016\u53F5\u6D4B\u3002\u5F80\u524D\u884C\u8D70\u770B\u770B\u5427\u3002"
