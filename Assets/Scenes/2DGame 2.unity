@@ -1168,7 +1168,7 @@ MonoBehaviour:
   - {fileID: 254197078}
   teleportersTo:
   - {fileID: 850788490}
-  NextLevel: StartScene1_1
+  NextLevel: StartScene2_1
 --- !u!1 &266775687
 GameObject:
   m_ObjectHideFlags: 0

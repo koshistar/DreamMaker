@@ -9498,7 +9498,7 @@ MonoBehaviour:
   - {fileID: 2000927038}
   tracksPositions:
   - {x: 0, y: -1.513762, z: 0}
-  - {x: -0.495, y: 0.09000003, z: -9.08}
+  - {x: -0.495, y: 0.09000003, z: -9.03}
 --- !u!137 &7154065994726062999
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
